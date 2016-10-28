@@ -2,8 +2,8 @@
     "name": "other-window",
     "displayName": "other-window",
     "description": "Open other window or switch to that window.",
-    "version": "0.0.1",
-    "publisher": "shirou",
+    "version": "0.3.0",
+    "publisher": "rrudi",
     "engines": {
         "vscode": "^1.5.0"
     },
@@ -15,10 +15,12 @@
     ],
     "main": "./out/src/extension",
     "contributes": {
-        "commands": [{
-            "command": "extension.otherWindow",
-            "title": "Open new column or cycle windows."
-        }]
+        "commands": [
+            {
+                "command": "extension.otherWindow",
+                "title": "Open new column or cycle windows."
+            }
+        ]
     },
     "scripts": {
         "vscode:prepublish": "tsc -p ./",
