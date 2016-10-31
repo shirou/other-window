@@ -5,6 +5,21 @@
 ## Features
 
 
+## setting
+
+command is `extension.otherWindow`.
+
+
+### example:
+
+```
+{
+  "key": "ctrl+o",
+  "command": "extension.otherWindow",
+  "when": "editorTextFocus"
+}
+```
+
 ## FYI
 
 http://d.hatena.ne.jp/rubikitch/20100210/emacs  (Japanese blog)
