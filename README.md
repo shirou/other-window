@@ -9,7 +9,6 @@
 
 command is `extension.otherWindow`.
 
-
 ### example:
 
 ```
@@ -25,6 +24,10 @@ command is `extension.otherWindow`.
 http://d.hatena.ne.jp/rubikitch/20100210/emacs  (Japanese blog)
 
 ## Release Notes
+
+### 0.0.2 (2016-11-16)
+
+If already split in a tab, not split.
 
 ### 0.0.1 (2016-10-19)
 
